@@ -1,0 +1,59 @@
+#dataAnalystSalary:hover::after {
+    content: "(Source: https://www.coursera.org/articles/how-much-do-data-analysts-make-salary-guide)";
+    background-color: white;
+    text-decoration: underline white;
+}
+#dataAnalystSalary {
+    text-decoration: underline dotted;
+}
+.sticky {
+    position: fixed;
+}
+#overlaidTitle {
+    position: absolute;
+    padding: 15px 0px 15px;
+    z-index: 1;
+    border-radius: 20px;
+    width: 30vw;
+    height: 75px;
+    top: 35vh;
+    left: 35vw;
+}
+#overlaidQuote {
+    position: absolute;
+    width: 75vw;
+    left: 12.5vw;
+    top: 8vw;
+    border-radius: 20px;
+}
+#snow {
+    height:10vh;
+    width: 50vw;
+    position: relative;
+    left: -12px;
+    object-fit: cover;
+}
+#fall {
+    height: 10vh;
+    width: 50vw;
+    top: 44vh;
+    left: 50vw;
+    position: absolute;
+    object-fit: cover;
+}
+#map {
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+}
+#list {
+    z-index: 15;
+}
+nav {
+    z-index: 3;
+}
